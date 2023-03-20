@@ -30,7 +30,7 @@ st.sidebar.markdown( '## Fastest Delivery in Town')
 st.sidebar.markdown( """_ _ _ """)
 
 st.write(' # Bem vindo ao Food Company Growth Dashboard ')
-st.write('#### Navegue na barra lateral e tilize os filtros para ver as métricas da empresa em seus principais indicadores')
+st.write('#### Navegue na barra lateral e utilize os filtros para ver as métricas da empresa em seus principais indicadores')
 
 #st.sidebar.markdown( '## Filtros')
 
