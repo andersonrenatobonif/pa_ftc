@@ -143,7 +143,7 @@ with st.container():
         
 # 10 cidade com mais quantidade de tipo de culinária distinto        
         
-    st.caption("<h3 style='text-align: center; color: grey;'>10 cidade com mais quantidade de tipo de culinária distinto</h3>", unsafe_allow_html=True)
+    st.caption("<h3 style='text-align: center; color: grey;'>10 cidades com mais quantidade de tipo de culinária distinto</h3>", unsafe_allow_html=True)
     cuisines_chart = cuisines_city(df1)
     st.plotly_chart(cuisines_chart, use_container_width=True)
        
