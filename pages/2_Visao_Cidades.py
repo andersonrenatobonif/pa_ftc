@@ -112,7 +112,7 @@ df1 = df1.loc[linhas_selecionadas, :]
 
 with st.container():
     # Top 10 Restaurantes por cidade
-    st.caption("<h3 style='text-align: center; color: grey;'>Top 10 Restaurantes por cidade</h3>", unsafe_allow_html=True)
+    st.caption("<h3 style='text-align: center; color: grey;'>Top 10 cidades com mais restaurantes</h3>", unsafe_allow_html=True)
     city_chart = id_city(df1)
     st.plotly_chart(city_chart, use_container_width=True)
     
@@ -124,7 +124,7 @@ col1, col2 = st.columns(2, gap='large')
 with col1:
 # 7 cidade com restaurantes com mais avaliações
 
-    st.caption("<h3 style='text-align: center; color: grey;'>7 cidade com restaurantes com mais avaliações</h3>", unsafe_allow_html=True)
+    st.caption("<h3 style='text-align: center; color: grey;'>7 cidades com restaurantes com mais avaliações</h3>", unsafe_allow_html=True)
     rate_chart = votes_city(df1)
     st.plotly_chart(rate_chart, use_container_width=True)
     
@@ -133,7 +133,7 @@ with col1:
 with col2:
     # 7 cidade com restaurantes com avaliações acima de 4.5
         
-    st.caption("<h3 style='text-align: center; color: grey;'>7 cidade com restaurantes com avaliações acima de 4.5</h3>", unsafe_allow_html=True)
+    st.caption("<h3 style='text-align: center; color: grey;'>7 cidades com restaurantes com avaliações acima de 4.5</h3>", unsafe_allow_html=True)
     price_chart = rate_city(df1)
     st.plotly_chart(price_chart, use_container_width=True)
         
