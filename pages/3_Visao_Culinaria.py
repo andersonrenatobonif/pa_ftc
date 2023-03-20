@@ -34,7 +34,7 @@ def dataframe_view(df1):
                                            'country' : 'País', 
                                            'cuisines' : 'Culinária' }))
     
-    return cuisines
+    return cuisines.head(10)
 
 
 # Top 7 culinárias melhor avaliadas
