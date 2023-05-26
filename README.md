@@ -1,6 +1,6 @@
 # 1- Problema de Negócio
 
-A empresa Food Company é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Fome Zero, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
+A empresa Food Company é uma marketplace de restaurantes. Seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Food Company, que disponibiliza informações como endereço, tipo de culinária, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
 
 
 O CEO também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Food Company, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards para a partir disso ele conseguir responsder algumas perguntas de negócio.
