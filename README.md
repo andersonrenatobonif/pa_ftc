@@ -63,7 +63,7 @@ Cada visão é representada pelo segguinte conjunto de métricas:
 
 Painel hospedado em cloud que pode ser acessado de qualquer lugar e a qualquer momento.
 
-Pode ser acessado através desse link: https://arsantos-pa-ftc.streamlit.app/
+Pode ser acessado através desse link: <a href="https://arsantos-pa-ftc.streamlit.app/" target="_blank">Dashboard Food Company</a>   
 
 
 # 6- Conclusão
